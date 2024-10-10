@@ -1,0 +1,31 @@
+.head{
+    display: inline;
+    -webkit-text-stroke: 1.5px black;
+}
+.logo{
+    width: 49px;
+    margin-left: 30px;
+}
+header{
+    padding: 2px;
+}
+.side{
+    list-style-type: none;
+    text-decoration: none;
+}
+.bar{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.pos{
+    text-decoration: none;
+}
+.sidebar{
+    position: fixed;
+    background-color: #292828;
+    height: 100%;
+    width: 223px;
+}
+body{
+    background-color: #48505E;
+}
