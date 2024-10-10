@@ -63,7 +63,7 @@ body{
 }
 
 .tables{
-    margin-top: 10%;
+    margin-top: 6%;
 }
 
 .table {
@@ -72,23 +72,6 @@ body{
     border-radius: 5px;
     border-collapse: separate;
     border-spacing: 0;
-}
-
-.edit{
-    color: #74C0FC;
-    margin-left: 15%;
-}
-
-.del{
-    margin-left: 30%;
-    color: #ff0000;
-}
-.cheese{
-    width: 20%;
-}
-
-.image{
-    width: 30%;
 }
 
 .table thead th {
