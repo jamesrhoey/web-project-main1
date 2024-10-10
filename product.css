@@ -27,9 +27,6 @@ header{
     width: 223px;
     top: 8.8%;
 }
-body{
-    background-color: #48505E;
-}
 /* Container Styling */
 .inventory-container {
     margin: 40px auto;
@@ -37,9 +34,19 @@ body{
     padding: 20px;
     background-color: #f9f9f9;
     border-radius: 8px;
-    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    box-shadow: 12px 1  4px 12px rgba(0, 0, 0, 0.1);
 }
 
+.btn{
+    width: 15%;
+}
+
+.del{
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 /* Header Section */
 .inventory-container h2 {
     font-size: 24px;
@@ -63,7 +70,7 @@ body{
 }
 
 .tables{
-    margin-top: 10%;
+    margin-top: 6%;
 }
 
 .table {
@@ -72,23 +79,6 @@ body{
     border-radius: 5px;
     border-collapse: separate;
     border-spacing: 0;
-}
-
-.edit{
-    color: #74C0FC;
-    margin-left: 15%;
-}
-
-.del{
-    margin-left: 30%;
-    color: #ff0000;
-}
-.cheese{
-    width: 20%;
-}
-
-.image{
-    width: 30%;
 }
 
 .table thead th {
