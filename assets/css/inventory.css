@@ -27,9 +27,9 @@ header{
     width: 223px;
 }
 body{
-    background-color: #48505E;
+    background-color: #e7eaee;
 }
-/* Container Styling */
+
 .inventory-container {
     margin: 40px auto;
     max-width: 850px;
@@ -39,24 +39,13 @@ body{
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-/* Header Section */
+
 .inventory-container h2 {
     font-size: 24px;
     font-weight: bold;
     color: #333;
 }
 
-.inventory-container .btn-primary {
-    background-color: #007bff;
-    border-color: #007bff;
-    font-weight: bold;
-}
-
-.inventory-container .btn-primary:hover {
-    background-color: #0056b3;
-}
-
-/* Table Container */
 .table-container {
     margin-top: 20px;
 }
@@ -95,29 +84,6 @@ body{
 .table td {
     border: 1px solid #ddd;
 }
-
-/* Action Buttons */
-.btn-action {
-    background: none;
-    border: none;
-    cursor: pointer;
-    font-size: 14px;
-    font-weight: bold;
-}
-
-.text-primary {
-    color: #007bff;
-}
-
-.text-primary:hover {
-    color: #0056b3;
-}
-
-.add {
-    font-size: 16px;
-}
-
-/* Pagination */
 .pagination {
     margin-top: 20px;
 }
@@ -143,7 +109,7 @@ body{
     color: #6c757d;
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
     .inventory-container {
         margin: 20px;
@@ -162,3 +128,4 @@ body{
         justify-content: center;
     }
 }
+
