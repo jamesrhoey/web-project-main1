@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/frontend/login.css">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <div class="main text-light">
+        
+        <img src="images/logo.png" class="logs" alt="">
+        <h4>Log in to your account</h4>
+        <p class="fw-light">Welcome back! Please enter your details</p>
+        <form id="registration-form">
+            <label for="">username</label>
+            <input type="text">
+            <label for="Email" class="l1">Email</label>
+            <br>
+            <input type="text" name="email" class="email" size="30" placeholder="Enter your email" id="email" required>
+            <br>
+            <label for="Password" class="l2">Password</label>
+            <br>
+            <input type="password" name="password" class="pass" size="31" placeholder="Enter your password" id="password" required>
+            
+            <input id="remember-me" type="checkbox" name="remember">
+            <label for="remember-me">Remember me</label>
+            <a href="forgotpass.html" class="forgot fst-italic" >Forgot Password</a>
+            <br>
+            <br>
+            <div class="d-grid gap-2 col-6 col-lg-10 ms-1">
+                <button class="btn btn-dark text-light" type="submit">Sign In</button>
+            </div>
+        </form>
+    </div>
+
+  <script src="/frontend/assets/script/register.js"></script>
+</body>
+</html>
